@@ -1,0 +1,103 @@
+h2{
+text-align: center;
+}
+.centered-gdb{
+width:500px;
+height:350px;
+/*text-align: center;*/
+border: 1px solid #ccc;
+padding :10px;
+}
+select.sts_width {
+width: 100%;
+}
+.admin-table tr td, .admin-table tr th{
+	font-size: 12px;
+}
+.loader{
+display: none;
+}
+/* Pagination links */
+.pagination a {
+color: black;
+float: left;
+padding: 8px 12px;
+text-decoration: none;
+transition: background-color .3s;
+border: 1px solid #ccc;
+}
+/* Style the active/current link */
+.pagination a.active {
+background-color: #337ab7;
+;
+color: white;
+}
+.pagination {
+background-color: #f5f5f5;
+}
+input[type="text"]{
+text-align: left !important;
+}
+#trackbox{
+display: none;
+}
+.panel-heading span
+{
+margin-top: -26px;
+font-size: 15px;
+margin-right: -12px;
+}
+.clickable {
+background: rgba(0, 0, 0, 0.15);
+display: inline-block;
+padding: 6px 12px;
+border-radius: 4px;
+cursor: pointer;
+}
+.alert-danger{
+display: none;
+}
+.alert{
+margin-left: 0px;
+}
+body
+{
+font-family: 'Open Sans', sans-serif;
+}
+.fb-profile img.fb-image-lg{
+z-index: 0;
+width: 100%;  
+margin-bottom: 10px;
+}
+.fb-image-profile
+{
+margin: -90px 10px 0px 50px;
+z-index: 9;
+width: 20%; 
+}
+@media (max-width:768px)
+{
+.fb-profile-text>h1{
+font-weight: 700;
+font-size:16px;
+}
+.fb-image-profile
+{
+margin: -45px 10px 0px 25px;
+z-index: 9;
+width: 20%; 
+}
+}
+.wrap h2{
+	float: left;
+}
+.fb-image-profile.thumbnail {
+    height: 178px;
+}
+.sorting_asc {
+	width: 80px;
+}
+.sorting_desc {
+	width: 80px !important;
+}
+.table > tbody > tr > td{font-size: 12px;}
